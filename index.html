@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Higher Lower</title>
+</head>
+<body>
+    <h1>Welcome to Higher Lower!</h1>
+    <h2>To start enter a number between 1 and 100</h2>
+    <input type="number" onchange="limiter();" id="userInput"/>
+    <div class="align">
+        <button type="button" onclick="getValue();"/>Check Number</button>
+        <button type="button" class="size" onclick="newValue();">New Game</button>
+    </div>
+    <div id="prompt" class="prompt"></div>
+    <script src="js.js"></script>
+</body>
+</html>

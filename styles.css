@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: hsl(212, 14%, 19%);
+    gap: 10px;
+}
+
+input {
+    border: 3px solid hsl(176, 56%, 55%);
+    color: hsl(212, 14%, 19%);
+    border-radius: 5px;
+    width: 500px;
+    height: 20px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.align {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: hsl(176, 56%, 55%);
+    border: 0px;
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(0, 100%, 71%)
+}
+
+.size {
+    width: 175px;
+}
+
+.prompt {
+    color: hsl(212, 14%, 19%);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
